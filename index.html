@@ -75,7 +75,8 @@ body {
     </head> 
     <body> 
         <h1> Bank Loan Application Form</h1> 
-        <form id="loanForm" enctype="multipart/form-data"> 
+        <form id="loanForm" action="loan_application_backend.php" method="POST" enctype="multipart/form-data">
+
              <label for="name">Full Name:</label>
               <input type="text" id="name" name="name" required><br> 
               <label for="email">Email:</label> 
